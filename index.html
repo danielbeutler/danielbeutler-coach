@@ -6,259 +6,249 @@
 <title>Daniel Beutler | Advisor. Coach. Speaker.</title>
 <link rel="icon" href="favicon.ico">
 <style>
-  :root{
-    --blue:#4a9bd4;
-    --blue-dark:#2f6f9e;
-    --ink:#1c2733;
-    --gray:#5b6672;
-    --bg:#ffffff;
-    --bg-soft:#f5f8fa;
-  }
-  *{box-sizing:border-box;margin:0;padding:0;}
-  body{
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
-    color:var(--ink);
-    background:var(--bg);
-    line-height:1.6;
-  }
-  a{color:inherit;}
-  .wrap{max-width:1100px;margin:0 auto;padding:0 24px;}
+:root{
+--blue:#4a9bd4;
+--blue-dark:#2f6f9e;
+--ink:#1c2733;
+--gray:#5b6672;
+--bg:#ffffff;
+--bg-soft:#f5f8fa;
+}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+color:var(--ink);
+background:var(--bg);
+line-height:1.6;
+}
+a{color:inherit;}
+.wrap{max-width:1100px;margin:0 auto;padding:0 24px;}
 
-  header{
-    display:flex;align-items:center;justify-content:space-between;
-    padding:14px 24px;border-bottom:1px solid #eee;
-    position:sticky;top:0;background:#fff;z-index:10;flex-wrap:wrap;gap:12px;
-  }
-  header img.logo-img{height:44px;display:block;}
-  nav{display:flex;gap:26px;align-items:center;font-size:14px;font-weight:600;flex-wrap:wrap;}
-  nav a{text-decoration:none;color:var(--ink);}
-  nav a:hover{color:var(--blue);}
-  nav a.social img{height:20px;display:block;}
+header{
+display:flex;align-items:center;justify-content:space-between;
+padding:14px 24px;border-bottom:1px solid #eee;
+position:sticky;top:0;background:#fff;z-index:10;flex-wrap:wrap;gap:12px;
+}
+header img.logo-img{height:44px;display:block;}
+nav{display:flex;gap:26px;align-items:center;font-size:14px;font-weight:600;flex-wrap:wrap;}
+nav a{text-decoration:none;color:var(--ink);}
+nav a:hover{color:var(--blue);}
+nav a.social img{height:20px;display:block;}
 
-  .hero{
-    display:flex;flex-wrap:wrap;align-items:center;justify-content:center;background:var(--blue);color:#fff;
-    gap:24px;
-  }
-  .hero-text{flex:1 1 380px;padding:60px 24px;max-width:560px;}
-  .hero-text h1{font-size:40px;line-height:1.15;margin-bottom:20px;}
-  .hero-text p{font-size:18px;margin-bottom:30px;max-width:480px;}
-  .btn{
-    display:inline-block;background:#fff;color:var(--blue-dark);
-    padding:14px 28px;border-radius:6px;font-weight:700;text-decoration:none;
-  }
-  .hero-photo{flex:0 0 260px;width:260px;aspect-ratio:0.70;overflow:hidden;border-radius:8px;margin:24px 24px 24px 0;}
-  .hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 12%;display:block;}
+.hero{
+display:flex;flex-wrap:wrap;align-items:center;justify-content:center;background:var(--blue);color:#fff;
+gap:24px;
+}
+.hero-text{flex:1 1 380px;padding:60px 24px;max-width:560px;}
+.hero-text h1{font-size:40px;line-height:1.15;margin-bottom:20px;}
+.hero-text p{font-size:18px;margin-bottom:30px;max-width:480px;}
+.btn{
+display:inline-block;background:#fff;color:var(--blue-dark);
+padding:14px 28px;border-radius:6px;font-weight:700;text-decoration:none;
+}
+.hero-photo{flex:0 0 260px;width:260px;aspect-ratio:0.70;overflow:hidden;border-radius:8px;margin:24px 24px 24px 0;}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 12%;display:block;}
 
-  section{padding:80px 24px;}
-  section.soft{background:var(--bg-soft);}
-  h2{font-size:30px;margin-bottom:12px;}
-  .lead{color:var(--gray);font-size:17px;max-width:720px;margin-bottom:40px;}
+section{padding:80px 24px;}
+section.soft{background:var(--bg-soft);}
+h2{font-size:30px;margin-bottom:12px;}
+.lead{color:var(--gray);font-size:17px;max-width:720px;margin-bottom:40px;}
 
-  .traits{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px;margin-top:20px;}
-  .trait h3{color:var(--blue-dark);font-size:20px;margin-bottom:10px;}
-  .trait p{color:var(--gray);font-size:15px;}
+.traits{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:32px;margin-top:20px;}
+.trait h3{color:var(--blue-dark);font-size:20px;margin-bottom:10px;}
+.trait p{color:var(--gray);font-size:15px;}
 
-  .pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:32px;}
-  .pillar{background:#fff;border:1px solid #e6e9ec;border-radius:10px;padding:32px;}
-  .pillar h3{color:var(--blue-dark);font-size:18px;letter-spacing:1px;margin-bottom:14px;}
-  .pillar ul{margin-left:18px;color:var(--gray);font-size:15px;}
-  .pillar p{color:var(--gray);font-size:15px;margin-bottom:10px;}
+.pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:32px;}
+.pillar{background:#fff;border:1px solid #e6e9ec;border-radius:10px;padding:32px;}
+.pillar h3{color:var(--blue-dark);font-size:18px;letter-spacing:1px;margin-bottom:14px;}
+.pillar ul{margin-left:18px;color:var(--gray);font-size:15px;}
+.pillar p{color:var(--gray);font-size:15px;margin-bottom:10px;}
 
-  .testimonials{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:28px;align-items:stretch;}
-  .testimonial{background:#fff;border-radius:10px;padding:28px;border:1px solid #e6e9ec;display:flex;flex-direction:column;}
-  .testimonial p{font-style:italic;color:var(--ink);font-size:14.5px;margin-bottom:18px;}
-  .t-person{display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:12px;}
-  .t-person img{width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;}
-  .t-person .initial{width:44px;height:44px;border-radius:50%;background:var(--blue);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;}
-  .testimonial .who{font-weight:700;font-size:14px;}
-  .testimonial .role{color:var(--gray);font-size:13px;}
+.testimonials{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:28px;align-items:stretch;}
+.testimonial{background:#fff;border-radius:10px;padding:28px;border:1px solid #e6e9ec;display:flex;flex-direction:column;}
+.testimonial p{font-style:italic;color:var(--ink);font-size:14.5px;margin-bottom:18px;}
+.t-person{display:flex;align-items:center;gap:12px;margin-top:auto;padding-top:12px;}
+.t-person img{width:44px;height:44px;border-radius:50%;object-fit:cover;flex-shrink:0;}
+.t-person .initial{width:44px;height:44px;border-radius:50%;background:var(--blue);color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;flex-shrink:0;}
+.testimonial .who{font-weight:700;font-size:14px;}
+.testimonial .role{color:var(--gray);font-size:13px;}
 
-  footer{background:var(--ink);color:#fff;padding:60px 24px;text-align:center;}
-  footer h2{color:#fff;}
-  footer a{text-decoration:underline;}
-  .contact-info{color:#c9d2da;margin-top:16px;font-size:15px;}
-  .contact-info div{margin:4px 0;}
-  .contact-form{max-width:440px;margin:32px auto 0;display:flex;flex-direction:column;gap:12px;}
-  .contact-form input,.contact-form textarea{
-    font:inherit;padding:12px 14px;border-radius:6px;border:1px solid #3a4652;
-    background:#25313d;color:#fff;
-  }
-  .contact-form input::placeholder,.contact-form textarea::placeholder{color:#8a97a3;}
-  .contact-form button{border:none;cursor:pointer;align-self:center;padding:12px 32px;}
-  .legal-links{margin-top:32px;font-size:13px;color:#8a97a3;}
-  .legal-links a{text-decoration:underline;}
+footer{background:var(--ink);color:#fff;padding:60px 24px;text-align:center;}
+footer h2{color:#fff;}
+footer a{text-decoration:underline;}
+.contact-info{color:#c9d2da;margin-top:16px;font-size:15px;}
+.contact-info div{margin:4px 0;}
+.contact-form{max-width:440px;margin:32px auto 0;display:flex;flex-direction:column;gap:12px;}
+.contact-form input,.contact-form textarea{
+font:inherit;padding:12px 14px;border-radius:6px;border:1px solid #3a4652;
+background:#25313d;color:#fff;
+}
+.contact-form input::placeholder,.contact-form textarea::placeholder{color:#8a97a3;}
+.contact-form button{border:none;cursor:pointer;align-self:center;padding:12px 32px;}
+.legal-links{margin-top:32px;font-size:13px;color:#8a97a3;}
+.legal-links a{text-decoration:underline;}
 
-  @media (max-width:640px){
-    header{padding:12px 16px;}
-    header img.logo-img{height:36px;}
-    nav{gap:16px;font-size:13px;width:100%;justify-content:space-between;}
-    section{padding:48px 20px;}
-    h2{font-size:24px;}
-    .hero-text{padding:40px 20px 32px;}
-    .hero-text h1{font-size:28px;}
-    .hero-text p{font-size:16px;}
-    .hero-photo{width:200px;flex-basis:200px;margin:0 auto;}
-    .hero-photo img{object-position:center 12%;}
-    .pillars,.traits,.testimonials{gap:20px;}
-    footer{padding:44px 20px;}
-  }
-  @media (max-width:420px){
-    nav{gap:10px;font-size:12px;}
-    .hero-text h1{font-size:24px;}
-  }
+@media (max-width:640px){
+header{padding:12px 16px;}
+header img.logo-img{height:36px;}
+nav{gap:16px;font-size:13px;width:100%;justify-content:space-between;}
+section{padding:48px 20px;}
+h2{font-size:24px;}
+.hero-text{padding:40px 20px 32px;}
+.hero-text h1{font-size:28px;}
+.hero-text p{font-size:16px;}
+.hero-photo{width:200px;flex-basis:200px;margin:0 auto;}
+.hero-photo img{object-position:center 12%;}
+.pillars,.traits,.testimonials{gap:20px;}
+footer{padding:44px 20px;}
+}
+@media (max-width:420px){
+nav{gap:10px;font-size:12px;}
+.hero-text h1{font-size:24px;}
+}
 </style>
 </head>
 <body>
 
 <header>
-  <img class="logo-img" src="logo.png" alt="Daniel Beutler — Advisor. Coach. Speaker.">
-  <nav>
-    <a href="#who">Who am I?</a>
-    <a href="#services">Advisor. Coach. Speaker.</a>
-    <a href="#testimonials">Interested?</a>
-    <a href="#contact">Contact</a>
-    <a class="social" href="https://fr.linkedin.com/in/dbeutler/en" target="_blank" rel="noopener"><img src="linkedin.svg" alt="LinkedIn"></a>
-  </nav>
+<img class="logo-img" src="logo.png" alt="Daniel Beutler — Advisor. Coach. Speaker.">
+<nav>
+<a href="#who">Who am I?</a>
+<a href="#services">Advisor. Coach. Speaker.</a>
+<a href="#testimonials">Interested?</a>
+<a href="#contact">Contact</a>
+<a class="social" href="https://fr.linkedin.com/in/dbeutler/en" target="_blank" rel="noopener"><img src="linkedin.svg" alt="LinkedIn"></a>
+</nav>
 </header>
 
 <section class="hero">
-  <div class="hero-text">
-    <h1>You don't have to be alone in this.</h1>
-    <p>Getting the right support is vital, even at the top. I've walked in those shoes for years — now I want to pass on my experience to see you succeed.</p>
-    <a class="btn" href="#who">Learn More</a>
-  </div>
-  <div class="hero-photo"><img src="hero.jpg" alt="Daniel Beutler"></div>
+<div class="hero-text">
+<h1>You don't have to be alone in this.</h1>
+<p>Getting the right support is vital, even at the top. I've walked in those shoes for years — now I want to pass on my experience to see you succeed.</p>
+<a class="btn" href="#who">Learn More</a>
+</div>
+<div class="hero-photo"><img src="hero.jpg" alt="Daniel Beutler"></div>
 </section>
 
 <section id="who">
-  <h2>Who am I?</h2>
-  <p class="lead">From startup to international scaleup. For over a decade I have held top management and board positions across industries and cultures, in both the corporate and start-up world — including CEO of Deutsche Bahn's most strategic Western European region, and President of Trainline International through its transformation into a European unicorn.</p>
+<h2>Who am I?</h2>
+<p class="lead">From startup to international scaleup. For over a decade I have held top management and board positions across industries and cultures, in both the corporate and start-up world — including CEO of Deutsche Bahn's most strategic Western European region, and President of Trainline International through its transformation into a European unicorn.</p>
 
-  <div class="traits">
-    <div class="trait">
-      <h3>Trusted</h3>
-      <p>Trust is the basis everything else is built on — confidentiality, reliability, and honest, bold feedback given with care. I see people as complex human beings, not just job titles, which is why coaching has to be tailor-made.</p>
-    </div>
-    <div class="trait">
-      <h3>Experienced</h3>
-      <p>Appointed CEO early in my career, I gathered over a decade of top management experience — and just as much experience being coached myself, as well as coaching, mentoring and advising others.</p>
-    </div>
-    <div class="trait">
-      <h3>Bold</h3>
-      <p>Being the youngest in the room means thinking outside the box and sometimes shaking things up. Turning a vision into reality takes courage, strength of mind, and a willingness to stray off the beaten track.</p>
-    </div>
-  </div>
+<div class="traits">
+<div class="trait">
+<h3>Trusted</h3>
+<p>Trust is the basis everything else is built on — confidentiality, reliability, and honest, bold feedback given with care. I see people as complex human beings, not just job titles, which is why coaching has to be tailor-made.</p>
+</div>
+<div class="trait">
+<h3>Experienced</h3>
+<p>Appointed CEO early in my career, I gathered over a decade of top management experience — and just as much experience being coached myself, as well as coaching, mentoring and advising others.</p>
+</div>
+<div class="trait">
+<h3>Bold</h3>
+<p>Being the youngest in the room means thinking outside the box and sometimes shaking things up. Turning a vision into reality takes courage, strength of mind, and a willingness to stray off the beaten track.</p>
+</div>
+</div>
 </section>
 
 <section class="soft" id="services">
-  <h2>Advisor. Coach. Speaker.</h2>
-  <p class="lead">The reality — especially in fast-moving businesses — is often a combination of all three. You decide what you need, in what combination, and at what pace.</p>
+<h2>Advisor. Coach. Speaker.</h2>
+<p class="lead">The reality — especially in fast-moving businesses — is often a combination of all three. You decide what you need, in what combination, and at what pace.</p>
 
-  <div class="pillars">
-    <div class="pillar">
-      <h3>ADVISOR</h3>
-      <p>Input from my own experience and areas of expertise — on a specific topic, a project, or a longer-term seat on the board as a non-executive director.</p>
-      <ul>
-        <li>Leadership in corporates and startups</li>
-        <li>Internationalisation and fast growth</li>
-        <li>Scaling and change: M&A, integration, IPO</li>
-        <li>Multilingual (EN, DE, FR) and intercultural</li>
-        <li>Mobility expert: rail, aviation, distribution</li>
-      </ul>
-    </div>
-    <div class="pillar">
-      <h3>COACH</h3>
-      <p><strong>Who?</strong> Middle/senior management or C-level in a scaling start-up, looking to develop your skills.</p>
-      <p><strong>How long?</strong> Around half a year, roughly six two-hour sessions plus calls and homework in between.</p>
-      <p><strong>Goal?</strong> Defined together from the outset — transformational, and visible to the people you work with.</p>
-      <p><strong>Next step?</strong> A first meeting to get to know each other. If it's a fit, we start right away.</p>
-    </div>
-    <div class="pillar">
-      <h3>SPEAKER</h3>
-      <p>Passing on what I've learned at universities, start-up hubs and events — lectures, keynotes, fireside talks.</p>
-      <ul>
-        <li>How to succeed as a leader</li>
-        <li>Organisational culture and behaviour for teams</li>
-        <li>Scaling teams and businesses internationally</li>
-        <li>How to successfully scale your start-up</li>
-        <li>My personal success story</li>
-      </ul>
-    </div>
-  </div>
+<div class="pillars">
+<div class="pillar">
+<h3>ADVISOR</h3>
+<p>Input from my own experience and areas of expertise — on a specific topic, a project, or a longer-term seat on the board as a non-executive director.</p>
+<ul>
+<li>Leadership in corporates and startups</li>
+<li>Internationalisation and fast growth</li>
+<li>Scaling and change: M&A, integration, IPO</li>
+<li>Multilingual (EN, DE, FR) and intercultural</li>
+<li>Mobility expert: rail, aviation, distribution</li>
+</ul>
+</div>
+<div class="pillar">
+<h3>COACH</h3>
+<p><strong>Who?</strong> Middle/senior management or C-level in a scaling start-up, looking to develop your skills.</p>
+<p><strong>How long?</strong> Around half a year, roughly six two-hour sessions plus calls and homework in between.</p>
+<p><strong>Goal?</strong> Defined together from the outset — transformational, and visible to the people you work with.</p>
+<p><strong>Next step?</strong> A first meeting to get to know each other. If it's a fit, we start right away.</p>
+</div>
+<div class="pillar">
+<h3>SPEAKER</h3>
+<p>Passing on what I've learned at universities, start-up hubs and events — lectures, keynotes, fireside talks.</p>
+<ul>
+<li>How to succeed as a leader</li>
+<li>Organisational culture and behaviour for teams</li>
+<li>Scaling teams and businesses internationally</li>
+<li>How to successfully scale your start-up</li>
+<li>My personal success story</li>
+</ul>
+</div>
+</div>
 </section>
 
 <section id="testimonials">
-  <h2>Interested?</h2>
-  <p class="lead">A few words from people I've worked with.</p>
-  <div class="testimonials">
-    <div class="testimonial">
-      <p>"Daniel's strategic advice has helped us advance our technical developments to boost cross-border giving in Europe. He is a reliable and trustworthy advisor, with strong listening and analytical skills."</p>
-      <div class="t-person">
-        <img src="t-edila.jpg" alt="Edila Gänz">
-        <div>
-          <div class="who">Edila Gänz</div>
-          <div class="role">Director of Fedora</div>
-        </div>
-      </div>
-    </div>
-    <div class="testimonial">
-      <p>"I have been working for 28 years in 8 companies and honestly, I have never worked with someone like Daniel before: open, intelligent, very experienced, super connected, accessible, funny and with a vision."</p>
-      <div class="t-person">
-        <img src="t-roderick.jpg" alt="Roderick D. van Heel">
-        <div>
-          <div class="who">Roderick D. van Heel</div>
-          <div class="role">Former Director, National Express Germany</div>
-        </div>
-      </div>
-    </div>
-    <div class="testimonial">
-      <p>"Over the last 7 years Daniel has been an incredible support in my professional decisions. Always positive and down-to-earth, he helped me formulate my objectives and focus on them."</p>
-      <div class="t-person">
-        <img src="t-maxime.jpg" alt="Maxime Quenin">
-        <div>
-          <div class="who">Maxime Quenin</div>
-          <div class="role">Chief of Staff to Group Chairman, AXA</div>
-        </div>
-      </div>
-    </div>
-    <div class="testimonial">
-      <p>"Daniel n'est pas là pour vous souffler la réponse, mais pour vous aider à y arriver par vous-même, à prendre confiance en vous, à vous faire vous poser les bonnes questions."</p>
-      <div class="t-person">
-        <img src="t-henri.jpg" alt="Henri Pagnon">
-        <div>
-          <div class="who">Henri Pagnon</div>
-          <div class="role">CEO &amp; Co-founder, Proprioo</div>
-        </div>
-      </div>
-    </div>
-    <div class="testimonial">
-      <p>"Daniel has a rare mix of empathy, sensibility, business acumen, and ability to assess situations with the right distance, that makes his support as a coach priceless."</p>
-      <div class="t-person">
-        <img src="t-benedetto.jpg" alt="Benedetto Levi">
-        <div>
-          <div class="who">Benedetto Levi</div>
-          <div class="role">CEO at Iliad Italy</div>
-        </div>
-      </div>
-    </div>
-  </div>
+<h2>Interested?</h2>
+<p class="lead">A few words from people I've worked with.</p>
+<div class="testimonials">
+<div class="testimonial">
+<p>"Daniel's strategic advice has helped us advance our technical developments to boost cross-border giving in Europe. He is a reliable and trustworthy advisor, with strong listening and analytical skills."</p>
+<div class="t-person">
+<img src="t-edila.jpg" alt="Edila Gänz">
+<div>
+<div class="who">Edila Gänz</div>
+<div class="role">Director of Fedora</div>
+</div>
+</div>
+</div>
+<div class="testimonial">
+<p>"I have been working for 28 years in 8 companies and honestly, I have never worked with someone like Daniel before: open, intelligent, very experienced, super connected, accessible, funny and with a vision."</p>
+<div class="t-person">
+<img src="t-roderick.jpg" alt="Roderick D. van Heel">
+<div>
+<div class="who">Roderick D. van Heel</div>
+<div class="role">Former Director, National Express Germany</div>
+</div>
+</div>
+</div>
+<div class="testimonial">
+<p>"Daniel n'est pas là pour vous souffler la réponse, mais pour vous aider à y arriver par vous-même, à prendre confiance en vous, à vous faire vous poser les bonnes questions."</p>
+<div class="t-person">
+<img src="t-henri.jpg" alt="Henri Pagnon">
+<div>
+<div class="who">Henri Pagnon</div>
+<div class="role">CEO &amp; Co-founder, Proprioo</div>
+</div>
+</div>
+</div>
+<div class="testimonial">
+<p>"Daniel has a rare mix of empathy, sensibility, business acumen, and ability to assess situations with the right distance, that makes his support as a coach priceless."</p>
+<div class="t-person">
+<img src="t-benedetto.jpg" alt="Benedetto Levi">
+<div>
+<div class="who">Benedetto Levi</div>
+<div class="role">CEO at Iliad Italy</div>
+</div>
+</div>
+</div>
+</div>
 </section>
 
 <footer id="contact">
-  <h2>Let's Talk</h2>
-  <div class="contact-info">
-    <div><a href="mailto:you@danielbeutler.coach">you@danielbeutler.coach</a></div>
-    <div>Based in the greater Hamburg area, Germany — ready to go where you are.</div>
-  </div>
+<h2>Let's Talk</h2>
+<div class="contact-info">
+<div><a href="mailto:you@danielbeutler.coach">you@danielbeutler.coach</a></div>
+<div>Based in the greater Hamburg area, Germany — ready to go where you are.</div>
+</div>
 
-  <form class="contact-form" action="mailto:you@danielbeutler.coach" method="post" enctype="text/plain">
-    <input type="text" name="Name" placeholder="Your name" required>
-    <input type="email" name="Email" placeholder="Your email" required>
-    <textarea name="Message" rows="4" placeholder="Your message" required></textarea>
-    <button type="submit" class="btn">Send</button>
-  </form>
+<form class="contact-form" action="mailto:you@danielbeutler.coach" method="post" enctype="text/plain">
+<input type="text" name="Name" placeholder="Your name" required>
+<input type="email" name="Email" placeholder="Your email" required>
+<textarea name="Message" rows="4" placeholder="Your message" required></textarea>
+<button type="submit" class="btn">Send</button>
+</form>
 
-  <div class="legal-links"><a href="impressum.html">Impressum</a></div>
+<div class="legal-links"><a href="impressum.html">Impressum</a></div>
 </footer>
 
 </body>
