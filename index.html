@@ -30,29 +30,28 @@ padding:14px 24px;border-bottom:1px solid #eee;
 position:sticky;top:0;background:#fff;z-index:10;flex-wrap:wrap;gap:12px;
 }
 header img.logo-img{height:44px;display:block;}
-nav{display:flex;gap:26px;align-items:flex-start;font-size:14px;font-weight:600;flex-wrap:wrap;}
-nav a{text-decoration:none;color:var(--ink);line-height:20px;display:block;}
+nav{display:flex;gap:26px;align-items:center;font-size:14px;font-weight:600;flex-wrap:wrap;}
+nav a{text-decoration:none;color:var(--ink);}
 nav a:hover{color:var(--blue);}
-nav a.social{line-height:0;}
 nav a.social img{height:20px;display:block;}
 
 .hero{
 background:var(--blue);color:#fff;
 }
 .hero-inner{
-display:flex;flex-wrap:wrap;align-items:stretch;
+max-width:1100px;margin:0 auto;padding:0 24px;
+display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;
+gap:24px;
 }
-.hero-text{flex:1 1 420px;padding:70px 48px;display:flex;flex-direction:column;justify-content:center;}
-.hero-logo{height:52px;margin-bottom:28px;filter:brightness(0) invert(1);display:block;}
-.hero-text h1{font-size:40px;line-height:1.15;margin-bottom:20px;max-width:520px;}
+.hero-text{flex:1 1 380px;padding:70px 0;max-width:600px;}
+.hero-text h1{font-size:40px;line-height:1.15;margin-bottom:20px;}
 .hero-text p{font-size:18px;margin-bottom:30px;max-width:480px;}
 .btn{
 display:inline-block;background:#fff;color:var(--blue-dark);
 padding:14px 28px;border-radius:6px;font-weight:700;text-decoration:none;
-align-self:flex-start;
 }
-.hero-photo{flex:1 1 380px;max-width:640px;min-height:460px;overflow:hidden;}
-.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 4%;display:block;}
+.hero-photo{flex:0 0 300px;width:300px;aspect-ratio:0.70;overflow:hidden;border-radius:8px;margin:24px 0;}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 12%;display:block;}
 
 section{padding:80px 24px;}
 section.soft{background:var(--bg-soft);}
@@ -100,12 +99,12 @@ nav{gap:14px;font-size:13px;width:100%;justify-content:flex-start;row-gap:8px;}
 nav a.social{margin-left:auto;}
 section{padding:48px 20px;}
 h2{font-size:24px;}
-.hero-text{padding:32px 20px 8px;}
-.hero-logo{height:40px;margin-bottom:20px;}
+.hero-inner{padding:0 20px;gap:0;}
+.hero-text{padding:32px 0 8px;}
 .hero-text h1{font-size:28px;}
 .hero-text p{font-size:16px;}
-.hero-photo{flex-basis:auto;max-width:100%;min-height:320px;}
-.hero-photo img{object-position:center 8%;}
+.hero-photo{width:220px;flex-basis:220px;margin:0 auto 32px;}
+.hero-photo img{object-position:center 12%;}
 .pillars,.traits,.testimonials{gap:20px;}
 footer{padding:44px 20px;}
 }
@@ -131,7 +130,6 @@ nav{gap:10px;font-size:12px;}
 <section class="hero">
 <div class="hero-inner">
 <div class="hero-text">
-<img class="hero-logo" src="logo.png" alt="Daniel Beutler">
 <h1>You don't have to be alone in this.</h1>
 <p>Getting the right support is vital, even at the top. I've walked in those shoes for years — now I want to pass on my experience to see you succeed.</p>
 <a class="btn" href="#who">Learn More</a>
