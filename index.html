@@ -252,7 +252,10 @@ nav{gap:10px;font-size:12px;}
 <div>Based in the greater Hamburg area, Germany — ready to go where you are.</div>
 </div>
 
-<form class="contact-form" action="mailto:you@danielbeutler.coach" method="post" enctype="text/plain">
+<form class="contact-form" action="https://formsubmit.co/you@danielbeutler.coach" method="POST">
+<input type="hidden" name="_subject" value="Neue Kontaktanfrage über danielbeutler.coach">
+<input type="hidden" name="_template" value="table">
+<input type="text" name="_honey" style="display:none">
 <input type="text" name="Name" placeholder="Your name" required>
 <input type="email" name="Email" placeholder="Your email" required>
 <textarea name="Message" rows="4" placeholder="Your message" required></textarea>
